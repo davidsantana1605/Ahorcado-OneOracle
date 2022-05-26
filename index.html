@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15c12e3b21.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/styles.css">
+    <script type="text/javascript" src="js/palabras.js" defer></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Ahorcado Alura</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+        <div id="usedLetters"></div>
+    </div>
+    <div id="usedLetters"></div>
+    <div id="wordContainer"></div>
+    <button id="startButton">EMPEZAR</button>
+    <button id="ingresarButton">INGRESAR PALABRA</button>
+    <div>
+        <p id="mensajeFinal"></p>
+    </div>
+    <form id="ocultado">
+        <input id="textOcultado" pattern="^[A-Za-z]+$" type="text" cols="20" rows="1"></input>
+        <button id="botonOcultado">INGRESAR PALABRA AL SISTEMA</button>
+        <button id="volverInicio">VOLVER AL INICIO</button>
+    </form>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                        <img src="logo-aluraespanhol.svg" alt="logo alura">
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre Mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, placeat?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, placeat?</p>
+            </div>
+            <div class="box">
+                <h2>Contacto;)</h2>
+                <div class="red-social">
+                    <a href="https://github.com/davidsantana1605" class="fa-brands fa-github"></a>
+                    <a href="https://app.aluracursos.com/user/davidgeronimo925" class="fa-brands fa-amilia"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>David Santana</b> - Todos los derechos reservados</small>
+        </div>
+    </footer>   
+</body>
+</html>
